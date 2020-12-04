@@ -1,0 +1,110 @@
+* {
+    border: 1px groove #000000;
+    -webkit-tap-highlight-color:rgba(255, 255, 255, 0);
+    box-sizing: inherit;
+}
+body, html {
+    height: 100%;
+    min-height: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a + a{
+    margin-left: 1.5rem;
+}
+#top {
+    width: 100%;
+    padding-left: 3.125rem;
+    padding-right: 3.1875rem;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 4rem;
+    color: rgb(40, 42, 53);
+}
+#left {
+    flex: 1 1 0%;
+    margin-left: 2.5rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 0.875rem;
+    letter-spacing: -0.025rem;
+}
+#right {
+    display: flex;
+    -webkit-box-align: center;
+    margin-left: auto;
+}
+#prevHomeback {
+    position: relative;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border: 1px solid rgb(224, 224, 224);
+    transition: all 0.1s ease-in 0s;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background: white;
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: 800;
+    font-size: 0.875rem;
+    height: 2.1875rem;
+}
+button {
+    outline: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    appearance: none;
+    text-align: inherit;
+}
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
